@@ -100,4 +100,12 @@ ul a{
 
 .linea-verticale{
     display: flex;
+    background-color: black;
+    width: 3px;
+    height: 90px;
+    
+}
+
+.elenco-cosa-puoi-fare ul{
+    list-style-type: decimal;
 }
