@@ -1,5 +1,13 @@
+
+
+
+
+
+/*generale*/
+
 body{
     background-color: white;
+    margin: 0;
 }
 
 p{
@@ -13,6 +21,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     font-weight: bold;
+    color: #241747;
 }
 
 h2{
@@ -20,7 +29,38 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     font-weight:550;
+    
 }
+
+li{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 100px;
+    background-color: #908BA9;
+    padding: 15px;
+    text-align: right;
+}
+
+footer a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+footer:hover{
+text-decoration: underline;
+}
+
+
+/*header*/
 
 header{
     display: flex;
@@ -50,6 +90,11 @@ ul a{
     font-weight: bold;
 }
 
+ul a:hover{
+    text-decoration: underline;
+}
+/*hero*/
+
 .hero{
     display: flex;
     padding: 100px;
@@ -68,17 +113,19 @@ ul a{
     max-width: 20ch;
 }
 
+
+/*elementi di testo*/
 .testata{
     background-color: #A7DDD8;
     padding:60px ;
     align-items: center;
-    
 }
 
 .testata p{
-    max-width: 1100px;
+    max-width: 977px;
     margin: 0 auto;
     align-items: center;
+    margin-bottom: 20px; 
 }
 
 .blocco-1{
@@ -86,26 +133,276 @@ ul a{
     justify-content: space-between;
 }
 
-.card-capire-cosa-stai-vivendo{
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 100px;
-}
-
-.card-spazio-di-ascolto{
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 100px;
+.blocco-1 h2{
+    color: #908BA9 ;
 }
 
 .linea-verticale{
     display: flex;
     background-color: black;
-    width: 3px;
-    height: 90px;
-    
+    width: 9px;
+    height: 390px;
+    margin-right: 80px;
+    background-color: #A7DDD8;
+   
+}
+
+.testo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 434px;
+
 }
 
 .elenco-cosa-puoi-fare ul{
     list-style-type: decimal;
 }
+
+
+.titolo{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    align-items: center;
+    display: flex;
+}
+
+.titolo img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 250px;
+}
+
+.info-grafica{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.info-grafica li{
+    width: 526px;
+    line-height: 1,5;
+    margin-bottom: 15px;
+}
+
+.info-grafica img{
+    max-width: 303px;
+    max-height: 304px;
+}
+
+.colore-1{
+    color: #4E4772;
+    font-weight: bold;
+}
+
+.colore-2{
+    color: #A7DDD8;
+    font-weight: bold;
+}
+
+.colore-3{
+    color: #241747;
+    font-weight: bold;
+}
+
+.testata-2{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    align-items: center;
+    display: flex;
+}
+
+.blocco-2 h1{
+font-size: 40px;
+color: #908BA9;
+
+}
+
+.blocco-2 p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.blocco-2{
+    display: flex;
+}
+.blocco-2 img{
+    width: 240px;
+    height: 233px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.corpo{
+    width: 677px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.corpo h1{
+    color: #241747;
+    width:900px ;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.corpo li{
+    line-height: 1,5;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.corpo p{
+    margin-top: 50px;
+    width: 677px;
+    font-size: 20px;
+}
+.info-box{
+    width: 677px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.info-box h1{
+    font-size: 40px;
+
+}
+/*card e bottoni*/
+
+.card-capire-cosa-stai-vivendo{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+.card-capire-cosa-stai-vivendo p{
+    width: 694px;
+}
+.card-spazio-di-ascolto{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+.card-spazio-di-ascolto p{
+    width: 694px;
+}
+
+.bottone{
+    background-color: #241747;
+    color: white;
+    border: none;
+    border-radius:44px;
+    font-weight: bold;
+    width: 466px;
+    height: 71px;
+    cursor: pointer;
+    transition: trasnform 0.3s ease, box-shasow 0.3s ease;
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+.bottone:hover{
+    
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.bottone p{
+    color: white;
+    padding-left: 50px;
+    padding-top: 15px;
+    text-decoration: none;
+   
+}
+
+.bottone-3{
+    background-color: #241747;
+    color: white;
+    border: none;
+    border-radius:44px;
+    font-weight: bold;
+    width: 466px;
+    height: 71px;
+    cursor: pointer;
+    transition: trasnform 0.3s ease, box-shasow 0.3s ease;
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+.bottone-3:hover{
+    
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bottone-3 p{
+    color: white;
+    padding-left: 100px;
+    padding-top: 15px;
+   
+}
+
+.card img{
+    width: 206px;
+    height: 200px;
+}
+.card {
+    background-color: #241747;
+    border: none;
+    border-radius: 126px;
+    font-weight: bold;
+    width: 940px;
+    height: 251px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    margin-top: 80px;
+
+    display: flex; 
+    align-items: center;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-2 img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.card a {
+    display: flex;
+    text-decoration: none;
+}
+.contenuto p{
+    color: white;
+    width: 530px;
+   
+}
+
+.contenuto{
+margin-left: 40px;
+}
+
+.contenuto h1{
+    color: #A7DDD8;
+    font-size: 40px;
+}
+
+.card-block{
+margin-left: 250px;
+margin-top: 120px;
+}
+
+
+/*responsive*/
