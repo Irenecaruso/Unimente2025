@@ -164,8 +164,13 @@ ul a:hover{
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 100px;
+    padding-bottom: 0;
     align-items: center;
     display: flex;
+}
+
+.titolo h1{
+    margin-bottom: 0;
 }
 
 .titolo img{
@@ -249,6 +254,9 @@ color: #908BA9;
     margin-top: 50px;
 }
 
+.corpo p:first-child{
+    padding-top: 30px;
+}
 .corpo{
     width: 677px;
     justify-content: center;
@@ -516,6 +524,52 @@ color: #908BA9;
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
+.info-gruppo{
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    background-color: #241747;
+}
+
+.box img{
+    margin: 0;
+}
+
+.box h1{
+margin: 0;
+color: #A7DDD8;
+font-size: 35px;
+}
+
+
+.box{
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.box-2 img{
+    margin: 0;
+}
+
+.box-2 h1{
+margin: 0;
+color: #A7DDD8;
+font-size: 35px;
+}
+.box-2{
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
 /*card e bottoni*/
 
 .card-capire-cosa-stai-vivendo{
@@ -698,5 +752,51 @@ margin-left: 250px;
 margin-top: 120px;
 }
 
+.card-3 img{
+    width: 206px;
+    height: 200px;
+    margin-left: 35px;
+}
+.card-3 {
+    background-color: #241747;
+    border: none;
+    border-radius: 126px;
+    font-weight: bold;
+    width: 940px;
+    height: 251px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    margin-top: 80px;
+    display: flex; 
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 120px;
+}
 
+.contenuto-2{
+    margin-left: 50px;
+}
+.card-3 h1{
+font-size: 40px;
+color: #A7DDD8;
+}
+
+.contenuto-2 p{
+    font-size: 25px;
+    color: white;
+}
+.card-3:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-3 a {
+    display: flex;
+    text-decoration: none;
+}
+
+.card-block-2 a{
+    text-decoration: none;
+}
 /*responsive*/
