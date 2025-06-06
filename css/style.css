@@ -11,7 +11,7 @@ body{
 }
 
 p{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
@@ -33,7 +33,7 @@ h2{
 }
 
 li{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
@@ -254,27 +254,37 @@ color: #908BA9;
 
 .corpo li{
     line-height: 1,5;
-    font-size: 20px;
     margin-bottom: 15px;
 }
 
 .corpo p{
     margin-top: 50px;
     width: 677px;
-    font-size: 20px;
 }
 .info-box{
-    width: 677px;
+    width: 884px;px;
+    height: 650px;
     justify-content: center;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 100px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 104px;
+    background-color: #A7DDD8;
 }
 
+    
 .info-box h1{
     font-size: 40px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
 
+.info-box p{
+    width: 677px;
+    margin-bottom: 30px;
 }
 /*card e bottoni*/
 
