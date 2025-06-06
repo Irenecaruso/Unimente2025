@@ -258,10 +258,10 @@ color: #908BA9;
     padding-top: 30px;
 }
 .corpo{
-    width: 677px;
+    width: 750px;
     justify-content: center;
     align-items: center;
-    padding-left: 200px;
+    padding-left: 350px;
     padding-right: 200px;
     padding-top: 100px;
 }
@@ -295,7 +295,7 @@ color: #908BA9;
     border: none;
     border-radius: 104px;
     background-color: #A7DDD8;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 100px;
 }
 
@@ -326,7 +326,7 @@ color: #908BA9;
     border: none;
     border-radius: 104px;
     background-color: #A7DDD8;
-    margin-left: 200px;
+   margin-left: 300px;
     margin-top: 100px;
 }
 
@@ -358,7 +358,7 @@ color: #908BA9;
     border: none;
     border-radius: 104px;
     background-color: #A7DDD8;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 100px;
 }
 
@@ -390,7 +390,7 @@ color: #908BA9;
     border: none;
     border-radius: 104px;
     background-color: #241747;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 100px;
     cursor: pointer;
     transition: trasnform 0.3s ease, box-shasow 0.3s ease;
@@ -439,7 +439,7 @@ color: #908BA9;
     border: none;
     border-radius: 104px;
     background-color: #241747;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 100px;
     cursor: pointer;
     transition: trasnform 0.3s ease, box-shasow 0.3s ease;
@@ -488,7 +488,7 @@ color: #908BA9;
     border: none;
     border-radius: 104px;
     background-color: #241747;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 100px;
     cursor: pointer;
     transition: trasnform 0.3s ease, box-shasow 0.3s ease;
