@@ -800,3 +800,100 @@ color: #A7DDD8;
     text-decoration: none;
 }
 /*responsive*/
+
+/* Tablet: fino a 1024px */
+@media screen and (max-width: 1024px) {
+  .info-box,
+  .info-box-2,
+  .info-box-3,
+  .info-box-4,
+  .info-box-5 {
+    width: 90%;
+    height: auto;
+    padding: 30px;
+    border-radius: 50px;
+    flex-direction: column;
+  }
+
+  .freccia-1 img,
+  .freccia-2 img {
+    width: 40px;
+    height: 40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .bottone,
+  .bottone-2,
+  .bottone-3 {
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 20px;
+  }
+
+  .info-box img {
+    width: 100px;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .info-box-text {
+    font-size: 18px;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+/* Mobile: fino a 600px */
+@media screen and (max-width: 600px) {
+  .titolo img {
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  .info-box,
+  .info-box-2,
+  .info-box-3,
+  .info-box-4,
+  .info-box-5 {
+    width: 95%;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 40px auto;
+  }
+
+  .info-box-text {
+    font-size: 16px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .info-box img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .freccia-1 img,
+  .freccia-2 img {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .bottone,
+  .bottone-2,
+  .bottone-3 {
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 18px;
+    display: block;
+    margin: 20px auto;
+  }
+
+  p,
+  li {
+    font-size: 14px;
+  }
+}
