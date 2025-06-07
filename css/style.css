@@ -266,7 +266,15 @@ color: #908BA9;
     padding-top: 100px;
 }
 
-
+.corpo-2{
+    width: 750px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
 .corpo h1{
     color: #241747;
     width:900px ;
@@ -802,7 +810,26 @@ color: #A7DDD8;
 /*responsive*/
 
 /* Tablet: fino a 1024px */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
+
+    .hero img {
+        max-width: 50%;
+        height: 50%;
+    }
+   .hero p{
+    font-size: 30px;
+   }
+
+    .card-capire-cosa-stai-vivendo h1{
+     font-size: 20px;
+
+    }
+.testo h1{
+    font-size: 20px;
+}
+    .card-capire-cosa-stai-vivendo p{
+        
+    }
   .info-box,
   .info-box-2,
   .info-box-3,
@@ -847,6 +874,21 @@ color: #A7DDD8;
 
 /* Mobile: fino a 600px */
 @media screen and (max-width: 600px) {
+
+    .hero img{
+        margin-left: 10px;
+        margin-top: 10px;
+        max-width: 40%;
+        height: 40%;
+    }
+
+    .hero p{
+        font-size: 20px;
+    }
+
+    .blocco-1 h1{
+
+    }
   .titolo img {
     width: 250px;
     margin: 0 auto;
