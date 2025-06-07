@@ -4,10 +4,16 @@
 
 
 /*generale*/
-
-body{
-    background-color: white;
-    margin: 0;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 p{
@@ -67,9 +73,11 @@ header{
     margin: 0;
     justify-content: space-between;
     padding: 20px;
+
 }
 
 header img{
+    margin-right: 500px;
     max-width: 100%;
     height: 100%;
 }
@@ -79,7 +87,7 @@ nav ul{
     max-width: 1200px;
     margin: 0 20px;
     padding: 20px;
-    gap: 55px;
+    gap: 40px;
     list-style: none;
 }
 
@@ -99,6 +107,7 @@ ul a:hover{
     display: flex;
     padding: 100px;
     justify-content: space-between;
+    gap: 20%;
 }
 
 .hero img{
@@ -116,6 +125,7 @@ ul a:hover{
 
 /*elementi di testo*/
 .testata{
+    width: 100%;
     background-color: #A7DDD8;
     padding:60px ;
     align-items: center;
@@ -161,10 +171,6 @@ ul a:hover{
 
 
 .titolo{
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 100px;
-    padding-bottom: 0;
     align-items: center;
     display: flex;
 }
@@ -180,10 +186,7 @@ ul a:hover{
 }
 
 .titolo-2{
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 100px;
-    align-items: center;
+    ;
     display: flex;
 }
 
@@ -194,8 +197,6 @@ ul a:hover{
 }
 .info-grafica{
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
     padding-top: 100px;
     justify-content: space-between;
 }
@@ -227,8 +228,6 @@ ul a:hover{
 }
 
 .testata-2{
-    padding-left: 200px;
-    padding-right: 200px;
     padding-top: 100px;
     align-items: center;
     display: flex;
@@ -250,7 +249,6 @@ color: #908BA9;
 .blocco-2 img{
     width: 240px;
     height: 233px;
-    margin-left: 250px;
     margin-top: 50px;
 }
 
@@ -261,8 +259,6 @@ color: #908BA9;
     width: 750px;
     justify-content: center;
     align-items: center;
-    padding-left: 350px;
-    padding-right: 200px;
     padding-top: 100px;
 }
 
@@ -270,8 +266,6 @@ color: #908BA9;
     width: 750px;
     justify-content: center;
     align-items: center;
-    padding-left: 350px;
-    padding-right: 200px;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -303,7 +297,6 @@ color: #908BA9;
     border: none;
     border-radius: 104px;
     background-color: #A7DDD8;
-    margin-left: 300px;
     margin-top: 100px;
 }
 
@@ -334,7 +327,6 @@ color: #908BA9;
     border: none;
     border-radius: 104px;
     background-color: #A7DDD8;
-   margin-left: 300px;
     margin-top: 100px;
 }
 
@@ -366,7 +358,6 @@ color: #908BA9;
     border: none;
     border-radius: 104px;
     background-color: #A7DDD8;
-    margin-left: 300px;
     margin-top: 100px;
 }
 
@@ -398,7 +389,6 @@ color: #908BA9;
     border: none;
     border-radius: 104px;
     background-color: #241747;
-    margin-left: 300px;
     margin-top: 100px;
     cursor: pointer;
     transition: trasnform 0.3s ease, box-shasow 0.3s ease;
@@ -447,7 +437,6 @@ color: #908BA9;
     border: none;
     border-radius: 104px;
     background-color: #241747;
-    margin-left: 300px;
     margin-top: 100px;
     cursor: pointer;
     transition: trasnform 0.3s ease, box-shasow 0.3s ease;
@@ -496,7 +485,6 @@ color: #908BA9;
     border: none;
     border-radius: 104px;
     background-color: #241747;
-    margin-left: 300px;
     margin-top: 100px;
     cursor: pointer;
     transition: trasnform 0.3s ease, box-shasow 0.3s ease;
@@ -534,10 +522,13 @@ color: #908BA9;
 }
 
 .info-gruppo{
+    align-items: center;
     margin-top: 50px;
-    padding: 30px;
+   padding: 30px;
+   width: 100%;
     display: flex;
     background-color: #241747;
+    gap: 200px;
 }
 
 .box img{
@@ -552,12 +543,12 @@ font-size: 35px;
 
 
 .box{
-    justify-content: center;
+     justify-content: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: bold;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .box-2 img{
@@ -575,23 +566,25 @@ font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: bold;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 /*card e bottoni*/
 
 .card-capire-cosa-stai-vivendo{
-    padding-left: 200px;
-    padding-right: 200px;
     padding-top: 100px;
+}
+.card-capire-cosa-stai-vivendo img{
+   margin-left: 20%;
 }
 .card-capire-cosa-stai-vivendo p{
     width: 694px;
 }
 .card-spazio-di-ascolto{
-    padding-left: 200px;
-    padding-right: 200px;
     padding-top: 100px;
+}
+.card-spazio-di-ascolto img{
+    margin-left: 20%;
 }
 .card-spazio-di-ascolto p{
     width: 694px;
@@ -602,7 +595,8 @@ font-size: 35px;
     margin-top: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;+
+    justify-content: space-between;
+    gap: 20%;
 }
 
 .freccia-1 img{
@@ -627,13 +621,11 @@ font-size: 35px;
     border: none;
     border-radius:52px;
     font-weight: bold;
-    width: 373px;
+    width:370px;
     height:68px;
     cursor: pointer;
     transition: trasnform 0.3s ease, box-shasow 0.3s ease;
     text-decoration: none;
-    margin-right: 100px;
-    margin-left: 100px;
     cursor: pointer;
     transition: trasnform 0.3s ease, box-shasow 0.3s ease;
 }
@@ -657,7 +649,7 @@ font-size: 35px;
     border: none;
     border-radius:44px;
     font-weight: bold;
-    width: 466px;
+    width:370px;
     height: 71px;
     cursor: pointer;
     transition: trasnform 0.3s ease, box-shasow 0.3s ease;
@@ -756,7 +748,6 @@ margin-left: 40px;
 }
 
 .card-block{
-margin-left: 250px;
 margin-top: 120px;
 }
 
@@ -778,7 +769,6 @@ margin-top: 120px;
     margin-top: 80px;
     display: flex; 
     align-items: center;
-    margin-left: 200px;
     margin-top: 120px;
 }
 
@@ -809,133 +799,4 @@ color: #A7DDD8;
 }
 /*responsive*/
 
-/* Tablet: fino a 1024px */
-@media screen and (max-width: 1200px) {
 
-    .hero img {
-        max-width: 50%;
-        height: 50%;
-    }
-   .hero p{
-    font-size: 30px;
-   }
-
-    .card-capire-cosa-stai-vivendo h1{
-     font-size: 20px;
-
-    }
-.testo h1{
-    font-size: 20px;
-}
-    .card-capire-cosa-stai-vivendo p{
-        
-    }
-  .info-box,
-  .info-box-2,
-  .info-box-3,
-  .info-box-4,
-  .info-box-5 {
-    width: 90%;
-    height: auto;
-    padding: 30px;
-    border-radius: 50px;
-    flex-direction: column;
-  }
-
-  .freccia-1 img,
-  .freccia-2 img {
-    width: 40px;
-    height: 40px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .bottone,
-  .bottone-2,
-  .bottone-3 {
-    font-size: 16px;
-    padding: 12px 24px;
-    border-radius: 20px;
-  }
-
-  .info-box img {
-    width: 100px;
-    height: auto;
-    margin-right: 0;
-    margin-bottom: 15px;
-  }
-
-  .info-box-text {
-    font-size: 18px;
-    padding-left: 0;
-    text-align: center;
-  }
-}
-
-/* Mobile: fino a 600px */
-@media screen and (max-width: 600px) {
-
-    .hero img{
-        margin-left: 10px;
-        margin-top: 10px;
-        max-width: 40%;
-        height: 40%;
-    }
-
-    .hero p{
-        font-size: 20px;
-    }
-
-    .blocco-1 h1{
-
-    }
-  .titolo img {
-    width: 250px;
-    margin: 0 auto;
-  }
-
-  .info-box,
-  .info-box-2,
-  .info-box-3,
-  .info-box-4,
-  .info-box-5 {
-    width: 95%;
-    padding: 20px;
-    border-radius: 40px;
-    margin: 40px auto;
-  }
-
-  .info-box-text {
-    font-size: 16px;
-    padding-left: 0;
-    text-align: center;
-  }
-
-  .info-box img {
-    width: 80px;
-    margin-bottom: 10px;
-  }
-
-  .freccia-1 img,
-  .freccia-2 img {
-    width: 30px;
-    height: 30px;
-    margin: 20px auto;
-    display: block;
-  }
-
-  .bottone,
-  .bottone-2,
-  .bottone-3 {
-    font-size: 14px;
-    padding: 10px 20px;
-    border-radius: 18px;
-    display: block;
-    margin: 20px auto;
-  }
-
-  p,
-  li {
-    font-size: 14px;
-  }
-}
